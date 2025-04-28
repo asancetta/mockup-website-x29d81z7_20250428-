@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #7887ab; color: white; padding: 20px; text-align: center; }
+        nav { text-align: center; padding: 10px; background: #162856; }
+        nav a { color: white; text-decoration: none; padding: 15px; }
+        .section { padding: 40px; text-align: left; }
+        .section h2 { text-align: center; }
+        .container { display: flex; justify-content: space-around; }
+        .offers-container, .deals-container { width: 45%; }
+        .offer, .deal {
+            margin: 20px;
+            padding: 20px;
+            background: #eaeaea;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            position: relative;
+        }
+        .deal input[type="checkbox"] {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        .deal p, .offer p { margin: 10px 0; }
+        .deal strong, .offer strong { display: block; margin-bottom: 10px; }
+        footer { background: #162856; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Investor Dashboard</h1>
+</header>
+<nav>
+    <a href="MockupWebsite.html">Home</a>
+    <a href="filters.html">Apply Filters</a>
+</nav>
+
+<section class="section">
+    <h2>Investment Opportunities</h2>
+    <div class="container">
+        <div class="offers-container">
+            <h3>Offers<sup>*</sup></h3>
+            <div class="offer">
+                <p><strong>Offer 1</strong></p>
+                <p><strong>Amount: £5m</strong></p>
+                <p><strong>Turn: 120 days</strong></p>
+                <p><strong>Term: Standing</strong></p>
+                <p><strong>Underlying: Receivables</strong></p>
+            </div>
+            <div class="offer">
+                <p><strong>Offer 2</strong></p>
+                <p><strong>Amount: £10m</strong></p>
+                <p><strong>Turn: 90 days</strong></p>
+                <p><strong>Term: Yearly</strong></p>
+                <p><strong>Underlying:Trade Finance</strong></p>
+            </div>
+            <div class="offer">
+                <p><strong>Offer 3</strong></p>
+                <p><strong>Amount: £2.5m</strong></p>
+                <p><strong>Turn: 90 days</strong></p>
+                <p><strong>Term: Case by Case</strong></p>
+                <p><strong>Underlying: All</strong></p>
+            </div>
+            <div class="footnote"><p>
+                <p><sup>*</sup>The figures shown are the aggregates per type, term, and preferred underlying, of financing appetite by funders who subscribe to the platform. Such figures do not constitute an engagement by the platform or by the relevant funders to finance an applicant for credit and are shown only as indicative of a potential source of funding for successful applicants. Any funding is subject to the due diligence procedure by the relevant funder and will take place upon closing of a binding contract between the parties.</p>
+            </div>
+        </div>
+        <div class="deals-container">
+            <h3>Deals</h3>
+            <div class="deal">
+                <input type="checkbox">
+                <p><strong>Deal 1</strong></p>
+                <p><strong>Amount: £50,000   | Credit Score (MORE©): A  |  Duration:30 days  |  Neg News: No</strong></p>
+                <p><strong>Default Prob (180 days): 0.20% (Confidence: 100%)</strong></p>
+                <p><strong>Unsecured Credit Level: £920,000</strong></p>
+                <p><strong>Leverage Ratio: 1.48 (Financial: 0.03) |  Quick Ratio: 1.03 |  L/A: 1.68</strong></p>
+                <p><strong>Cash Conv Cycle (days): 51</strong></p>
+                <p><strong>Revenue: £58m</strong></p>
+                <p><strong>Net Assets: 26m</strong></p>
+            </div>
+            <div class="deal">
+                <input type="checkbox">
+                <p><strong>Deal 2</strong></p>
+                <p><strong>Amount: £75,000 | Credit Score (MORE): B  | Duration: 60 days</strong></p>
+                <p><strong>Default Prob (180 days): N/A</strong></p>
+                <p><strong>Unsecured Credit Level: N/A</strong></p>
+                <p><strong>Leverage Ratio: N/A</strong></p>
+                <p><strong>Quick Ratio: N/A</strong></p>
+                <p><strong>L/A: N/A</strong></p>
+                <p><strong>Cash Conv Cycle: N/A</strong></p>
+                <p><strong>Revenue: N/A</strong></p>
+                <p><strong>Net Assets: N/A</strong></p>
+                <p><strong>Neg News: N/A</strong></p>
+            </div>
+            <div class="deal">
+                <input type="checkbox">
+                <p><strong>Deal 3</strong></p>
+                <p><strong>Amount: £100,000</strong></p>
+                <p><strong>Credit Rating: A+</strong></p>
+                <p><strong>Duration: 90 days</strong></p>
+                <p><strong>Default Prob (180 days): N/A</strong></p>
+                <p><strong>Unsecured Credit Level: N/A</strong></p>
+                <p><strong>Leverage Ratio: N/A</strong></p>
+                <p><strong>Quick Ratio: N/A</strong></p>
+                <p><strong>L/A: N/A</strong></p>
+                <p><strong>Cash Conv Cycle: N/A</strong></p>
+                <p><strong>Revenue: N/A</strong></p>
+                <p><strong>Net Assets: N/A</strong></p>
+                <p><strong>Neg News: N/A</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 P2P Trade Finance. All rights reserved.</p>
+</footer>
+</body>
+</html>

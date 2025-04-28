@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Filters</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #7887ab; color: white; padding: 20px; text-align: center; }
+        nav { text-align: center; padding: 10px; background: #162856; }
+        nav a { color: white; text-decoration: none; padding: 15px; }
+        .section { padding: 40px; text-align: center; }
+        .filters { margin: 20px auto; padding: 20px; background: #f4f4f4; max-width: 500px; text-align: left; }
+        footer { background: #162856; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Apply Investment Filters</h1>
+</header>
+<nav>
+    <a href="MockupWebsite.html">Home</a>
+    <a href="investor-dashboard.html">Investor Dashboard</a>
+</nav>
+
+<section class="section">
+    <h2>Filter Deals</h2>
+    <div class="filters">
+        <label>Credit Rating:</label>
+        <select>
+            <option value="all">All</option>
+            <option value="A+">A+</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+        <br><br>
+        <label>Deal Size:</label>
+        <select>
+            <option value="all">All</option>
+            <option value="under-50k">Under £50,000</option>
+            <option value="50k-100k">£50,000 - £100,000</option>
+            <option value="over-100k">Over £100,000</option>
+        </select>
+        <br><br>
+        <label>Duration:</label>
+        <select>
+            <option value="all">All</option>
+            <option value="short">0-30 days</option>
+            <option value="medium">31-60 days</option>
+            <option value="long">61-90 days</option>
+        </select>
+        <br><br>
+        <button>Apply Filters</button>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 P2P Trade Finance. All rights reserved.</p>
+</footer>
+</body>
+</html>
